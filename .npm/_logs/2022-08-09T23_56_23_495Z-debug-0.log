@@ -1,0 +1,75 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@8.16.0
+2 info using node@v14.20.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/vagrant/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 0ms
+16 timing config:load:setEnvs Completed in 0ms
+17 timing config:load Completed in 8ms
+18 timing npm:load:configload Completed in 8ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install bower
+22 verbose argv "install" "--global" "bower"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing config:load:flatten Completed in 2ms
+25 timing npm:load:display Completed in 3ms
+26 verbose logfile logs-max:10 dir:/home/vagrant/.npm/_logs
+27 verbose logfile /home/vagrant/.npm/_logs/2022-08-09T23_56_23_495Z-debug-0.log
+28 timing npm:load:logFile Completed in 4ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 18ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 5ms
+35 timing idealTree:userRequests Completed in 2ms
+36 silly idealTree buildDeps
+37 silly fetch manifest bower@*
+38 http fetch GET 200 https://registry.npmjs.org/bower 229ms (cache miss)
+39 silly placeDep ROOT bower@1.8.14 OK for:  want: *
+40 timing idealTree:#root Completed in 244ms
+41 timing idealTree:node_modules/bower Completed in 0ms
+42 timing idealTree:buildDeps Completed in 244ms
+43 timing idealTree:fixDepFlags Completed in 0ms
+44 timing idealTree Completed in 254ms
+45 timing reify:loadTrees Completed in 256ms
+46 timing reify:diffTrees Completed in 1ms
+47 silly reify moves {}
+48 timing reify:retireShallow Completed in 1ms
+49 timing reify:createSparse Completed in 1ms
+50 timing reify:loadBundles Completed in 0ms
+51 silly audit bulk request { bower: [ '1.8.14' ] }
+52 silly tarball no local data for bower@https://registry.npmjs.org/bower/-/bower-1.8.14.tgz. Extracting by manifest.
+53 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 163ms
+54 timing auditReport:getReport Completed in 166ms
+55 silly audit report {}
+56 timing auditReport:init Completed in 0ms
+57 timing reify:audit Completed in 166ms
+58 http fetch GET 200 https://registry.npmjs.org/bower/-/bower-1.8.14.tgz 2830ms (cache miss)
+59 timing reifyNode:node_modules/bower Completed in 2838ms
+60 timing reify:unpack Completed in 2839ms
+61 timing reify:unretire Completed in 0ms
+62 timing build:queue Completed in 0ms
+63 timing build:link:node_modules/bower Completed in 3ms
+64 timing build:link Completed in 3ms
+65 timing build:deps Completed in 4ms
+66 timing build Completed in 4ms
+67 timing reify:build Completed in 4ms
+68 timing reify:trash Completed in 0ms
+69 timing reify Completed in 3122ms
+70 silly ADD node_modules/bower
+71 timing command:install Completed in 3126ms
+72 verbose exit 0
+73 timing npm Completed in 3202ms
+74 info ok
